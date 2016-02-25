@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'TonLib_Example', :exclusive => true do
+  pod 'TonLib', :path => '../'
+end
+
+target 'TonLib_Tests', :exclusive => true do
+  pod 'TonLib', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
