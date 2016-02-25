@@ -1,0 +1,25 @@
+{
+  "name": "TonLib",
+  "version": "0.1.0",
+  "summary": "A short description of TonLib.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TonLib",
+  "license": "MIT",
+  "authors": {
+    "Tzoani": "darksky_ddd@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TonLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TonLib": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

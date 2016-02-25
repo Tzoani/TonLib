@@ -1,0 +1,6 @@
+framework module TonLib {
+  umbrella header "TonLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
