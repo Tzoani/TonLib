@@ -24,7 +24,6 @@
 		143EABB2B234961F56E64C8DA488D995 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9075248C77581BD5230031BD8E5BA45 /* UIImage+Diff.m */; };
 		14C23369126AFA6E79BBC2079F4A1AAB /* SPTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		160FDA46EE919AAF97E0E4EC04C9E232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF01F310BCD4F2E114A0BB3796FAA47 /* Foundation.framework */; };
-		161073D2AC5EC23A05F8D0D79C3D5856 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C811D24005DB30ED18FA3F572E4DF06 /* ReplaceMe.m */; };
 		17572374B2AE183C6347C41E8DF8E579 /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FA6514DAE7C7226C8C112DFE74E58 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		186218BBBD70EB138178E36D35B764CC /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A35BE0267849F84514C1480B43A470C /* SPTCompiledExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A1AB2EC52323C5EA28DAA99F1E1A90D /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 306E137B97A38C22CEC1E6B27B33B78A /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -123,6 +122,10 @@
 		BC55C8365AEFF8217F6A567607754854 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BEFFE9FFE52E9A0833A7D2D8FB67EB4D /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D9D3D0C96D5284831B2C833DD79A36 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C02AB798E581AAE9F3206B0268BCDB59 /* TonLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDEB362A86519394864F01CE80AAD89 /* TonLib-dummy.m */; };
+		C80E47EF1C7F4BBE008ABEC2 /* NSString+EncoderUTF8.h in Headers */ = {isa = PBXBuildFile; fileRef = C80E47EB1C7F4BBE008ABEC2 /* NSString+EncoderUTF8.h */; };
+		C80E47F01C7F4BBE008ABEC2 /* NSString+EncoderUTF8.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E47EC1C7F4BBE008ABEC2 /* NSString+EncoderUTF8.m */; };
+		C80E47F11C7F4BBE008ABEC2 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = C80E47ED1C7F4BBE008ABEC2 /* NSString+MD5.h */; };
+		C80E47F21C7F4BBE008ABEC2 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E47EE1C7F4BBE008ABEC2 /* NSString+MD5.m */; };
 		CD8475395EFE8DA24D5444137BA3CE67 /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3F4ECBB0BC095577D66AE50C8E604C /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AF203F6B98E185A822F5F0BC6DB151 /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D4ECFC1739377F822EDACC05E437CA1B /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = BF701C1C8F03B74819BFFD19C9DEA426 /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -318,7 +321,6 @@
 		83F81E2F7458F3EB6037B9EC3D3AF262 /* Pods-TonLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TonLib_Tests.modulemap"; sourceTree = "<group>"; };
 		878462D210A0E241634B3440B5E097C6 /* Pods-TonLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TonLib_Example.modulemap"; sourceTree = "<group>"; };
 		8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
-		8C811D24005DB30ED18FA3F572E4DF06 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		8CE42337022021AE45B4E067D494C32F /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
 		91453F85BD953E023DC76351FFEA1D94 /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
@@ -368,6 +370,10 @@
 		C4318C653F9355DDB7F7553A52F8890D /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		C468A58BBD0142C1B15D5D1E99CD14D2 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		C6C7CD39279BCFD392135DCF45F61F03 /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
+		C80E47EB1C7F4BBE008ABEC2 /* NSString+EncoderUTF8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EncoderUTF8.h"; sourceTree = "<group>"; };
+		C80E47EC1C7F4BBE008ABEC2 /* NSString+EncoderUTF8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EncoderUTF8.m"; sourceTree = "<group>"; };
+		C80E47ED1C7F4BBE008ABEC2 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		C80E47EE1C7F4BBE008ABEC2 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		C868D690588A6B89F532448ECAE12885 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		CD486E43B7465271EE4EBCB98E5DAF8D /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
 		CD7582733015B7D005A247EF5856A0D6 /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
@@ -481,7 +487,10 @@
 		026F90394F8452665195D60D0BCEEC7A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8C811D24005DB30ED18FA3F572E4DF06 /* ReplaceMe.m */,
+				C80E47EB1C7F4BBE008ABEC2 /* NSString+EncoderUTF8.h */,
+				C80E47EC1C7F4BBE008ABEC2 /* NSString+EncoderUTF8.m */,
+				C80E47ED1C7F4BBE008ABEC2 /* NSString+MD5.h */,
+				C80E47EE1C7F4BBE008ABEC2 /* NSString+MD5.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -956,7 +965,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80E47EF1C7F4BBE008ABEC2 /* NSString+EncoderUTF8.h in Headers */,
 				11F6038C3E96C01767A156405E47779C /* TonLib-umbrella.h in Headers */,
+				C80E47F11C7F4BBE008ABEC2 /* NSString+MD5.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1273,8 +1284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				161073D2AC5EC23A05F8D0D79C3D5856 /* ReplaceMe.m in Sources */,
+				C80E47F21C7F4BBE008ABEC2 /* NSString+MD5.m in Sources */,
 				C02AB798E581AAE9F3206B0268BCDB59 /* TonLib-dummy.m in Sources */,
+				C80E47F01C7F4BBE008ABEC2 /* NSString+EncoderUTF8.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

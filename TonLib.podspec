@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TonLib"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "TonLib is library for useful and freeware"
   s.description      = "TonLib is library for useful and freeware.It have network programming"
 
